@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: rgb(183, 181, 190);
+}
+
+header {
+    background-color: rgb(42, 55, 112);
+    padding: 15px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+aside {
+    display:flex;
+}
+
+#page {
+    display: flex;
+    height: calc( 100vh - 30px);
+    background-color: rgb(42, 55, 112);
+    margin: 10px;
+
+}
+
+#sidebar {
+    width: 100px;
+    background-color: rgb(183, 181, 190);
+}
